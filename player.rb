@@ -8,7 +8,7 @@ class Player
         @@counter += 1
     end
     def insert_selection(selected_square)
-        @selected_squares << selected_square
+        selected_squares << selected_square
     end
     def self.counter
         @@counter
